@@ -1,1 +1,8 @@
-
+git add . ## to stage all files
+git log --oneline
+//checkout
+//reset
+## To revert back to previous versions
+git checkout "git_id"  
+git checkout master ## T get back to original position 
+#NOT MUCH CODE DISCUSSED
