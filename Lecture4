@@ -1,1 +1,10 @@
-
+git revert "commit id" ## to revert back to a version
+# RESET COMMAND
+git reset "commit id" # will give second chance
+git reset --hard "commit id" will not give any chance and simply resets upto that point
+#BRANCHING OUT FROM MASTER
+git branch dev-1
+git branch #list all the available branches
+git checkout dev-1 # to switch from master to dev-1 branch
+git checkout -b dev2 # creates a new branch dev2 and aso switches from master to dev2 branch
+#NOT MUCH CODE DISCUSSED
