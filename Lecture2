@@ -1,1 +1,21 @@
-
+##GIT LECTURE 2##
+git init
+git status
+git add index.html
+git commit -m"initial commit"
+git config --global user.name "CipherSchools" --replace-all
+git config user.name #prints the username
+git config --global user.mail "mundialbngl@gmail.com"
+git config --global  user.mail
+##After making change
+git commit -m"Second commit"
+git log
+git status
+clear ## to clear the terminal
+##create style.css
+git add index.html style.css ## staging the files
+git commit -m"added style.css"
+git log --oneline
+git add examplle.js
+git commit -m"added example.js"
+git log
