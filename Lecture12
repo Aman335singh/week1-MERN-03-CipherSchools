@@ -1,0 +1,17 @@
+CSS BOX Model
+margin: 10px;
+/* Creating a border with 2px thickness, dashed style, and black color */
+border: 2px dashed black;
+padding: 5px;
+width: 200px;
+height: 200px;
+div {
+  overflow: scroll/hidden;
+  display: inline-block;
+  margin: top right bottom left;
+  padding: top right bottom left;
+  margin: 10px auto;
+  display: inline; 
+  width: auto;
+  height: auto;
+}
